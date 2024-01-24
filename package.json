@@ -4,7 +4,7 @@
   "description": "Bingo online dual player game in NodeJS",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node api.js && node app.js",
     "debug": "nodemon app.js"
   },
   "author": "Akansh Sirohi",
